@@ -1,8 +1,6 @@
 # deneyapkart_goruntuislemerobotkol
 Proje ile bilgisayar kamerası ile algılanan işaret parmağının ekrandaki X ve Y konumunu belirleyip sonrasında Seri haberleşme ile Deneyap karta veri gönderimi yapılmıştır.
-# Projeyi çalıştırma adımları
--cmd'yi açın, doğru dosya yoluna gidin ve "pip install -r requirements.txt" komutunu girin
--
+Proje çalıştırılırken öncelikle Arduino IDE ile Deneyap Karta kodun yüklenmesi sonrasında ise Python kodunun çalıştırılması gerekmektedir.
 # Kütüphaneler ve Sürümler
 -Python 3.11.0
 -pyserial==3.5
