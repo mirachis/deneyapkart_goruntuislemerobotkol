@@ -42,8 +42,8 @@ while cap.isOpened():
         px, py = myLP[0], myLP[1]
         cv2.circle(img, (px, py), 15, (255, 0, 255), cv2.FILLED)
         cv2.putText(img, str((px, py)), (px + 10, py - 10), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 3)
-        cv2.line(img, (0, py), (ws, py), (0, 0, 0), 2)  # x line
-        cv2.line(img, (px, hs), (px, 0), (0, 0, 0), 2)  # y line
+        cv2.line(img, (0, py), (ws, py), (0, 0, 0), 2)  
+        cv2.line(img, (px, hs), (px, 0), (0, 0, 0), 2)  
 
         servoX = int(np.interp(px, [0, ws], [180, 0]))
         servoY = int(np.interp(py, [0, hs], [0, 180]))
